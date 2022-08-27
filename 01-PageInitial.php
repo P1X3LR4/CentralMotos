@@ -14,7 +14,7 @@
     -->
 
     <!---------------- FRAMEWORKS CSS ---------------->
-    <?php include_once('../Components/Custom/01-FrameworkCss.php'); ?>
+    <?php include_once('../centralmotos/Components/Custom/01-FrameworkCss.php'); ?>
 
     <title> Central Motos </title>
 
@@ -23,7 +23,7 @@
 <body>
 
     <!----------------- MENU ------------------>
-    <?php include_once('../Components/Layout/Menu.php'); ?>
+    <?php include_once('../centralmotos/Components/Layout/Menu.php'); ?>
 
     <!----------------- HEADER ------------------>
     <div class="py-5 text-center cover d-flex flex-column bg-dark">
@@ -130,10 +130,10 @@
     </div>
 
     <!----------------- ALBUM ------------------>
-    <?php include_once('../Components/Layout/Album.php'); ?>
+    <?php include_once('../centralmotos/Components/Layout/Album.php'); ?>
 
     <!-------------------- FOOTER ------------------------>
-    <?php include_once('../Components/Layout/Footer.php'); ?>
+    <?php include_once('../centralmotos/Components/Layout/Footer.php'); ?>
 
     <!-- 
         ***********************
@@ -142,9 +142,9 @@
     -->
 
     <!---------------------- FRAMEWORKS JAVASCRIPTS ------------------->
-    <?php include_once('../Components/Custom/02-FrameworkJavaScript.php'); ?>
+    <?php include_once('../centralmotos/Components/Custom/02-FrameworkJavaScript.php'); ?>
     <!------------------- ALERTS JAVASCRIPT ------------------>
-    <?php include_once('../Components/Messages/01-AlertsJS.php'); ?>
+    <?php include_once('../centralmotos/Components/Messages/01-AlertsJS.php'); ?>
 
 </body>
 

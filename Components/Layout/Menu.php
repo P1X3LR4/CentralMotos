@@ -1,17 +1,17 @@
 <nav class="navbar navbar-expand-md fixed-top bg-dark text-center">
     <div class="container">
-        <a class="navbar-brand" href="http://localhost/CentralMotos/Pages/01-PageInitial.php"><b class="p-2 border-orange text-orange"> Central Motos </b></a>
+        <a class="navbar-brand" href="http://localhost/01-PageInitial.php"><b class="p-2 border-orange text-orange"> Central Motos </b></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse text-center justify-content-center" id="navbar3SupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/CentralMotos/Pages/01-PageInitial.php">HOME</a>
+                    <a class="nav-link" href="http://localhost/01-PageInitial.php">HOME</a>
                 </li>
                 <li class="nav-item mx-2 mb-2 my-md-0">
-                    <a class="nav-link" href="http://localhost/CentralMotos/Pages/01-PageInitial.php#parallax-about">SOBRE</a>
+                    <a class="nav-link" href="http://localhost/01-PageInitial.php#parallax-about">SOBRE</a>
                 </li>
                 <li class="nav-item mx-2 mb-2 my-md-0">
-                    <a class="nav-link" href="http://localhost/CentralMotos/Pages/01-PageInitial.php#LinkInternalServices">SERVIÇOS</a>
+                    <a class="nav-link" href="http://localhost/01-PageInitial.php#LinkInternalServices">SERVIÇOS</a>
                 </li>
 
                 <!-------- SUMIR COM A OPCAO DE CADASTRO E LOGIN QUANDO LOGADO ---------->
