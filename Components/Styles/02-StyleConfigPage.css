@@ -1,0 +1,84 @@
+.hero.is-fullheight {
+    min-height: 100vh;
+}
+.hero {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero.is-fullheight .hero-body {
+    align-items: center;
+    display: flex;
+}
+.hero-body {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 5rem 1.5rem;
+}
+
+@media screen and (min-width: 769px){
+    .column-cadastro.is-6-cadastro{
+    flex: none;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .column.is-6{
+    flex: none;
+    width: 50%;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .column.is-offset-3, .column.is-offset-3-tablet {
+    margin-left: 25%;
+    }
+}
+
+.svg-logo{
+    margin-left: -1.8rem !important;
+}
+
+.column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: .75rem;
+}
+
+.field:not(:last-child) {
+    margin-bottom: .75rem;
+}
+
+.control {
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: inherit;
+}
+
+.container-body {
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-body-cadastro {
+    width: 75%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-control, .input-is-large {
+    max-width: 100%;
+    width: 100%;
+    border: 1.5px solid #ff6415 !important;
+    border-radius: 4px !important;
+    color: #1b1b1b !important;
+}

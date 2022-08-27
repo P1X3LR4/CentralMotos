@@ -1,0 +1,196 @@
+*{
+
+  font-family: 'Electrolize', sans-serif;
+
+}
+
+::-webkit-input-placeholder { 
+  color: rgba(102, 102, 102, 0.342) !important;
+}
+
+/* SCROLLBAR CONFIGURATION */
+::-webkit-scrollbar{
+  width: 0.7rem;
+}
+::-webkit-scrollbar-track{
+  background: #171515;
+}
+::-webkit-scrollbar-thumb{
+  background: #d84800b9;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff5500;
+}
+
+.bg-dark{
+  background-color:  #171515 !important;
+}
+.bg-orange{
+  background-color:  #ff6415 !important;
+}
+
+/* BORDER SERVICES */
+.border-service-orange-left{
+  border-left: 1.5px solid #ff6415 !important;
+  border-radius: 10px;
+}
+.border-service-orange-right{
+  border-right: 1.5px solid #ff6415 !important;
+  border-radius: 10px;
+}
+.border-orange{
+  border: 1.5px solid #ff6415 !important;
+}
+
+.text-orange{
+  color: #ff6415 !important;
+}
+.text-dark{
+  color: #171515 !important;
+}
+.text-secondary{
+  color: #adadad !important;
+}
+
+.nav-link, .nav-link-white{
+  padding-right: .5rem;
+  padding-left: .5rem;
+  display: block;
+  padding: .5rem 1rem;
+}
+
+.nav-link{
+  color: #adadad !important;
+}
+
+li:hover a{
+  border-bottom: 1px solid #ff6415 !important;
+  color: #ff6415 !important;
+}
+
+.title-font{
+  font-family: 'Monoton', cursive;
+}
+
+.cover {
+	min-height:100%;
+  display:flex;
+  align-items:center;
+  background-attachment: fixed;
+}
+
+#parallax-about, #parallax-attention {
+  background-position: center; 
+  background-size: cover; 
+  background-repeat: repeat;
+}
+#parallax-about{
+  background-image: url('http://localhost/CentralMotos/Components/Images/01-ImageParallaxAbout.jpg');
+}
+#parallax-attention{
+  background-image: url('http://localhost/CentralMotos/Components/Images/02-ImageParallaxAttention.jpg');
+}
+
+.filter-dark {
+	overflow: hidden;
+	position: relative;
+	color: rgb(0, 0, 0);
+}
+ .filter-dark:before {
+	 position: absolute;
+	 top: 0px;
+	 left: 0px;
+	 width: 100%;
+	 height: 100%;
+	 content: ' ';
+	 background: rgba(0, 0, 0, 0.50);
+}
+
+.btn-orange {
+    color: #171515 !important;
+    background-color: #ff5500 !important;
+}
+
+.btn-grey {
+    color: #171515 !important;
+    background-color: #adadad !important;
+}
+
+/****** SERVICE ******/
+.circles {
+  width: 140px;
+  height: 140px;
+  padding-top: 2.3rem;
+  color: #adadad;
+}
+.circles:hover {
+  background-color: #ff6415;
+  color: #171515;
+}
+.center-circles {
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+/****** Descrição ******/
+.services {
+  height: 35rem !important;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-radius: 0px;
+  margin-bottom: 0rem !important;
+}
+
+/****** Rodapé ******/
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 0px;
+  margin-bottom: 0rem !important;
+  background-color: #ca5419;
+}
+
+.fa-facebook, .fa-whatsapp, .fa-instagram, .fa-envelope{
+  color: #171515 !important;
+}
+
+/**
+  **** 
+    Painel_Registro_Adm/User
+  ****
+**/
+
+.list {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+#notify {
+  margin-top: 2rem;
+}
+
+
+.dropdown-menu a {
+  color: #0f0f0f !important;
+  transition: ease-in-out color .15s;
+}
+.dropdown-menu  a:hover {
+  text-decoration: none;
+}
+
+.table .thead-dark th {
+    color: #ff7937 !important;
+    background-color: #171515 !important;
+    border-color: #ff8e54 !important;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #626262 !important;
+}
+
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #ffa171 !important;
+    opacity: 1;
+}
+
+
